@@ -1,0 +1,55 @@
+{
+  "name": "@vrbo/catalyst-render",
+  "version": "1.0.0",
+  "description": "A Hapi.js plugin to aid in server-side rendering using Handlebars and React.",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Expedia Group",
+    "email": "oss@expediagroup.com"
+  },
+  "contributors": [
+    "tlivings",
+    "tuckbick",
+    "mcjfunk",
+    "holmok",
+    "skphi13",
+    "joonastanner"
+  ],
+  "scripts": {
+    "build": "echo 'noop';",
+    "test": "npm run lint && npm run nyc",
+    "lint": "standard ./lib/**/*.js",
+    "tape": "tape ./tests/**/*.test.js | tap-spec",
+    "nyc": "nyc --reporter=text --reporter=text-summary --reporter=html --report-dir=docs/reports/coverage npm run tape",
+    "postnyc": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homeaway/catalyst-render"
+  },
+  "keywords": [
+    "catalyst-render",
+    "hapi",
+    "hapi.js",
+    "handlebars",
+    "react",
+    "node.js"
+  ],
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "hapi": ">=17.0.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "handlebars": "^4.0.12",
+    "joi": "^14.3.1",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "hapi": "^17.8.4",
+    "nyc": "^13.2.0",
+    "standard": "^12.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  }
+}
