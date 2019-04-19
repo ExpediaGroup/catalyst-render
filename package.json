@@ -27,6 +27,13 @@
     "type": "git",
     "url": "https://github.com/homeaway/catalyst-render"
   },
+  "bugs": {
+    "url": "https://github.com/homeaway/catalyst-render/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  },
   "keywords": [
     "catalyst-render",
     "hapi",

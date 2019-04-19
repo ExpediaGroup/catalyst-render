@@ -1,4 +1,4 @@
-# catalyst-render
+# @vrbo/catalyst-render
 
 *   [Introduction](#introduction)
 *   [Usage](#usage)
