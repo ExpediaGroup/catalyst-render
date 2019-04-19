@@ -1,6 +1,6 @@
 {
   "name": "@vrbo/catalyst-render",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A Hapi.js plugin to aid in server-side rendering using Handlebars and React.",
   "main": "lib/index.js",
   "author": {
