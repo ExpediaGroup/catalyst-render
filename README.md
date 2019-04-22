@@ -1,4 +1,8 @@
 # @vrbo/catalyst-render
+[![NPM Version](https://img.shields.io/npm/v/@vrbo/catalyst-render.svg?style=flat-square)](https://www.npmjs.com/package/@vrbo/catalyst-render)
+[![Build Status](https://travis-ci.org/homeaway/catalyst-render.svg?branch=master)](https://travis-ci.org/homeaway/catalyst-render)
+[![Dependency Status](https://david-dm.org/homeaway/catalyst-render.svg?theme=shields.io)](https://david-dm.org/homeaway/catalyst-render)
+[![NPM Downloads](https://img.shields.io/npm/dm/@vrbo/catalyst-render.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@vrbo/catalyst-render)
 
 *   [Introduction](#introduction)
 *   [Usage](#usage)
