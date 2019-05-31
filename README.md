@@ -27,11 +27,13 @@ Register the plugin in the application's manifest:
 "register": {
     "catalyst-render": {
         "plugin": "require:@vrbo/catalyst-render",
-        "routes": [{
-            "route": "require:./routes/application.js",
-            "component": "require:../components/App/server.js",
-            "template": "./templates/welcome.hbs"
-        }]
+        "options": {
+            "routes": [{
+                "route": "require:./routes/application.js",
+                "component": "require:../components/App/server.js",
+                "template": "./templates/welcome.hbs"
+            }]
+        }
     }
 }
 ...
@@ -48,7 +50,7 @@ module.exports = {
             const template = request.pre.template;
             const Component = request.pre.component;
             const body = ReactDOMServer.renderToString(<Component/>);
-            h.view(template, { body })
+            return h.view(template, { body })
         },
         id: 'root'
     }
