@@ -44,7 +44,7 @@
   ],
   "license": "Apache-2.0",
   "peerDependencies": {
-    "@hapi/hapi": ">=18.3.2"
+    "@hapi/hapi": ">=17.9.0"
   },
   "dependencies": {
     "debug": "^4.1.1",
