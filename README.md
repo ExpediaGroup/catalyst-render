@@ -11,7 +11,7 @@
 *   [Further Reading](#further-reading)
 
 ## Introduction
-A Hapi.js plugin that works with the [catalyst-server](https://github.com/homeaway/catalyst-server) to aid in server-side rendering using Handlebars and React. It allows you to relate a Handlebars template and a React component to a route. This route will automatically be registered with the server and will decorate `request.pre.component` with the react component and the `request.pre.template` with the template.  It will also register visions and server views with Handlebars rendering for the page scaffolding.
+A Hapi.js plugin that works with the [catalyst-server](https://github.com/homeaway/catalyst-server) to aid in server-side rendering using Handlebars and React. It allows you to relate a Handlebars template and a React component to a route. This route will automatically be registered with the server and will decorate `request.pre.component` with the react component and the `request.pre.template` with the template.  It will also register @hapi/vision and server views with Handlebars rendering for the page scaffolding.
 
 ## Usage
 
@@ -67,7 +67,7 @@ module.exports = {
 | options | <code>object</code> | Overriding options |
 | options.routes | <code>array</code> | A list of [route](###route) objects to register on server. |
 | [options.viewsOptions] | <code>object</code> | Options to add to (or override) when on `server.views` method is called for adding things like partials ,, layouts, helpers and others. |
-| [options.visionOptions] | <code>object</code> | Proxy for options when registering [Vision](https://www.npmjs.com/package/vision). |
+| [options.visionOptions] | <code>object</code> | Proxy for options when registering [@hapi/vision](https://www.npmjs.com/package/@hapi/vision). |
 | [options.resolveAssetHelper] | <code>object</code> | A Handlebars helper to help resolve static assets, as in publishing to a CDN. |
 | options.resolveAssetHelper.name | <code>string</code> | Name of helper. |
 | options.resolveAssetHelper.helper | <code>function</code> | Helper function. |

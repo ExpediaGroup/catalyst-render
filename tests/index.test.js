@@ -1,5 +1,5 @@
 const Tape = require('tape')
-const Hapi = require('hapi')
+const Hapi = require('@hapi/hapi')
 const Plugin = require('../lib')
 
 Tape('catalyst-render (bad init)', async (t) => {
@@ -21,7 +21,7 @@ Tape('catalyst-render (init with resolveAssetHelper)', async (t) => {
   }
   const server = {
     register ({ plugin }, options) {
-      t.equals(plugin.pkg.name, 'vision', 'Vision passed')
+      t.equals(plugin.pkg.name, '@hapi/vision', 'Vision passed')
       t.notOk(options, 'undefined options')
     },
     views (options) {
@@ -49,7 +49,7 @@ Tape('catalyst-render (configuration/dev/default)', async (t) => {
   }
   const server = {
     register ({ plugin }, options) {
-      t.equals(plugin.pkg.name, 'vision', 'Vision passed')
+      t.equals(plugin.pkg.name, '@hapi/vision', 'Vision passed')
       t.notOk(options, 'undefined options')
     },
     views (options) {
@@ -71,7 +71,7 @@ Tape('catalyst-render (configuration/prod)', async (t) => {
   }
   const server = {
     register ({ plugin }, options) {
-      t.equals(plugin.pkg.name, 'vision', 'Vision passed')
+      t.equals(plugin.pkg.name, '@hapi/vision', 'Vision passed')
       t.notOk(options, 'undefined options')
     },
     views (options) {
@@ -97,7 +97,7 @@ Tape('catalyst-render (views and vision options)', async (t) => {
   }
   const server = {
     register ({ plugin }, options) {
-      t.equals(plugin.pkg.name, 'vision', 'Vision passed')
+      t.equals(plugin.pkg.name, '@hapi/vision', 'Vision passed')
       t.ok(options, 'options passed')
       t.ok(options.isCached, 'isCached passed')
     },
