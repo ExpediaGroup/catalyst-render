@@ -25,22 +25,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/homeaway/catalyst-render"
+    "url": "https://github.com/expediagroup/catalyst-render"
   },
   "bugs": {
-    "url": "https://github.com/homeaway/catalyst-render/issues"
+    "url": "https://github.com/expediagroup/catalyst-render/issues"
   },
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=5.0.0"
   },
   "keywords": [
+    "catalyst",
     "catalyst-render",
     "hapi",
     "hapi.js",
     "handlebars",
     "react",
-    "node.js"
+    "node.js",
+    "homeaway",
+    "vrbo",
+    "expedia",
+    "expediagroup"
   ],
   "license": "Apache-2.0",
   "peerDependencies": {

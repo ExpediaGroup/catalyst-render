@@ -1,7 +1,7 @@
 # @vrbo/catalyst-render
 [![NPM Version](https://img.shields.io/npm/v/@vrbo/catalyst-render.svg?style=flat-square)](https://www.npmjs.com/package/@vrbo/catalyst-render)
-[![Build Status](https://travis-ci.org/homeaway/catalyst-render.svg?branch=master)](https://travis-ci.org/homeaway/catalyst-render)
-[![Dependency Status](https://david-dm.org/homeaway/catalyst-render.svg?theme=shields.io)](https://david-dm.org/homeaway/catalyst-render)
+[![Build Status](https://travis-ci.org/expediagroup/catalyst-render.svg?branch=master)](https://travis-ci.org/expediagroup/catalyst-render)
+[![Dependency Status](https://david-dm.org/expediagroup/catalyst-render.svg?theme=shields.io)](https://david-dm.org/expediagroup/catalyst-render)
 [![NPM Downloads](https://img.shields.io/npm/dm/@vrbo/catalyst-render.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@vrbo/catalyst-render)
 
 *   [Introduction](#introduction)
@@ -11,7 +11,7 @@
 *   [Further Reading](#further-reading)
 
 ## Introduction
-A Hapi.js plugin that works with the [catalyst-server](https://github.com/homeaway/catalyst-server) to aid in server-side rendering using Handlebars and React. It allows you to relate a Handlebars template and a React component to a route. This route will automatically be registered with the server and will decorate `request.pre.component` with the react component and the `request.pre.template` with the template.  It will also register @hapi/vision and server views with Handlebars rendering for the page scaffolding.
+A Hapi.js plugin that works with the [catalyst-server](https://github.com/expediagroup/catalyst-server) to aid in server-side rendering using Handlebars and React. It allows you to relate a Handlebars template and a React component to a route. This route will automatically be registered with the server and will decorate `request.pre.component` with the react component and the `request.pre.template` with the template.  It will also register @hapi/vision and server views with Handlebars rendering for the page scaffolding.
 
 ## Usage
 
