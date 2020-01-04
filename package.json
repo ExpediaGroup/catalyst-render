@@ -54,7 +54,7 @@
   "dependencies": {
     "debug": "^4.1.1",
     "handlebars": "^4.4.2",
-    "@hapi/joi": "^16.1.7",
+    "@hapi/joi": "^17.0.0",
     "@hapi/vision": "^5.5.4"
   },
   "devDependencies": {
