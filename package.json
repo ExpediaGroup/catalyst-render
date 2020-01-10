@@ -58,7 +58,7 @@
     "@hapi/vision": "^5.5.4"
   },
   "devDependencies": {
-    "@hapi/hapi": "^18.3.2",
+    "@hapi/hapi": "^19.0.0",
     "nyc": "^15.0.0",
     "standard": "^14.0.0",
     "tap-spec": "^5.0.0",
