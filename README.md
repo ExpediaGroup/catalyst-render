@@ -1,6 +1,6 @@
 # @vrbo/catalyst-render
 [![NPM Version](https://img.shields.io/npm/v/@vrbo/catalyst-render.svg?style=flat-square)](https://www.npmjs.com/package/@vrbo/catalyst-render)
-[![Build Status](https://travis-ci.org/expediagroup/catalyst-render.svg?branch=master)](https://travis-ci.org/expediagroup/catalyst-render)
+![](https://github.com/ExpediaGroup/catalyst-render/workflows/Node_CI/badge.svg)
 [![Dependency Status](https://david-dm.org/expediagroup/catalyst-render.svg?theme=shields.io)](https://david-dm.org/expediagroup/catalyst-render)
 [![NPM Downloads](https://img.shields.io/npm/dm/@vrbo/catalyst-render.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@vrbo/catalyst-render)
 
