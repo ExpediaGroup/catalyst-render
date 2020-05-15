@@ -39,7 +39,7 @@ Tape('catalyst-render (init with resolveAssetHelper)', async (t) => {
     }
   }
   const { register } = Plugin.plugin
-  register(server, options)
+  await register(server, options)
 })
 
 Tape('catalyst-render (configuration/dev/default)', async (t) => {
@@ -61,7 +61,7 @@ Tape('catalyst-render (configuration/dev/default)', async (t) => {
     }
   }
   const { register } = Plugin.plugin
-  register(server, options)
+  await register(server, options)
 })
 
 Tape('catalyst-render (configuration/prod)', async (t) => {
@@ -111,7 +111,7 @@ Tape('catalyst-render (views and vision options)', async (t) => {
     }
   }
   const { register } = Plugin.plugin
-  register(server, options)
+  await register(server, options)
 })
 
 Tape('catalyst-render (happy path)', async (t) => {
