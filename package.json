@@ -49,16 +49,16 @@
   ],
   "license": "Apache-2.0",
   "peerDependencies": {
-    "@hapi/hapi": ">=18.4.0"
+    "@hapi/hapi": ">=20.0.0"
   },
   "dependencies": {
     "@hapi/vision": "^6.0.0",
     "debug": "^4.1.1",
-    "handlebars": "^4.4.2",
+    "handlebars": "^4.7.6",
     "joi": "^17.2.0"
   },
   "devDependencies": {
-    "@hapi/hapi": "^19.2.0",
+    "@hapi/hapi": "^20.0.0",
     "nyc": "^15.0.0",
     "standard": "^14.0.0",
     "tap-spec": "^5.0.0",
