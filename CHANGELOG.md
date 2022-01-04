@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/expediagroup/catalyst-render/compare/v4.1.0...v4.1.1) (2022-01-04)
+
+
+### Bug Fixes
+
+* update readme to test CI ([c762a89](https://github.com/expediagroup/catalyst-render/commit/c762a898e253e1a0062d36ec36eda3eb78d048d6))
+
 # [4.1.0](https://github.com/expediagroup/catalyst-render/compare/v4.0.0...v4.1.0) (2022-01-04)
 
 
