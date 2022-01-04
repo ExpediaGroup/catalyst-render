@@ -21,7 +21,8 @@
     "lint": "standard ./lib/**/*.js",
     "tape": "tape ./tests/**/*.test.js | tap-spec",
     "nyc": "nyc --reporter=text --reporter=text-summary --reporter=html --report-dir=docs/reports/coverage npm run tape",
-    "postnyc": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
+    "postnyc": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -62,6 +63,16 @@
     "nyc": "^15.0.0",
     "standard": "^16.0.0",
     "tap-spec": "^5.0.0",
-    "tape": "^5.0.0"
+    "tape": "^5.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^18.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
