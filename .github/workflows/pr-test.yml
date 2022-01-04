@@ -1,32 +1,23 @@
-name: Release
+name: Node_CI
 on:
   pull_request:
     branches: [master]
+
 jobs:
-  prepare: # Do not run workflow for chore commits https://bit.ly/39qUH60
+  build:
     runs-on: ubuntu-latest
-    if: "! contains(github.event.head_commit.message, '[skip ci]')"
+    strategy:
+      matrix:
+        node-version: [14.x]
     steps:
-      - run: echo "${{ github.event.head_commit.message }}"
-  release:
-    needs: prepare
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Setup Node.js
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
-          node-version: [14.x]
-      - name: Install dependencies
-        run: npm install
-      - name: Test
-        run: npm test
-      - name: Release
+          node-version: ${{ matrix.node-version }}
+      - name: npm install and test
+        run: |
+          npm install
+          npm test
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+          CI: true
