@@ -1,20 +1,21 @@
-name: Runs unit tests on PRs
+name: Run unit tests
 on:
   pull_request:
     branches: [master]
 
 jobs:
-  build:
+  unit-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version-file: '.nvmrc'
-      - name: npm install and test
-        run: |
-          npm install
-          npm test
+      - name: Install dependencies
+        run: npm install
+      - name: Run unit tests
+        run: npm test
         env:
           CI: true
