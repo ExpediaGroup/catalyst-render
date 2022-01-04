@@ -11,7 +11,7 @@
 *   [Further Reading](#further-reading)
 
 ## Introduction
-A Hapi.js plugin that works with the [catalyst-server](https://github.com/expediagroup/catalyst-server) to aid in server-side rendering using Handlebars and React. It allows you to relate a Handlebars template and a React component to a route. This route will automatically be registered with the server and will decorate `request.pre.component` with the react component and the `request.pre.template` with the template.  It will also register @hapi/vision and server views with Handlebars rendering for the page scaffolding.
+A Hapi.js plugin that works with the [catalyst-server](https://github.com/expediagroup/catalyst-server) to aid in server-side rendering using Handlebars and React. It allows you to relate a Handlebars template and a React component to a route. This route will automatically be registered with the server and will decorate `request.pre.component` with the react component and the `request.pre.template` with the template.  It will also register @hapi/vision and server views with Handlebars rendering for the page scaffolding
 
 ## Usage
 
