@@ -1,3 +1,10 @@
+## [4.1.4](https://github.com/expediagroup/catalyst-render/compare/v4.1.3...v4.1.4) (2022-01-04)
+
+
+### Bug Fixes
+
+* adds .nvmrc file and uses it in actions ([#22](https://github.com/expediagroup/catalyst-render/issues/22)) ([3a07795](https://github.com/expediagroup/catalyst-render/commit/3a077957bd6aff9ed9f9132d8399de39e36324fa))
+
 ## [4.1.3](https://github.com/expediagroup/catalyst-render/compare/v4.1.2...v4.1.3) (2022-01-04)
 
 
