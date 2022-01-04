@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/expediagroup/catalyst-render/compare/v4.0.0...v4.1.0) (2022-01-04)
+
+
+### Features
+
+* adds github workflow for semantic release ([#21](https://github.com/expediagroup/catalyst-render/issues/21)) ([5fda922](https://github.com/expediagroup/catalyst-render/commit/5fda9227956001cd0182a5ee0b28a3a01b4386b2))
+
 # Changelog
 All notable changes to this project will be documented in this file.
 
