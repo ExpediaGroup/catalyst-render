@@ -1,3 +1,10 @@
+## [4.1.6](https://github.com/expediagroup/catalyst-render/compare/v4.1.5...v4.1.6) (2022-11-18)
+
+
+### Bug Fixes
+
+* bump minimatch from 3.0.4 to 3.1.2 ([#26](https://github.com/expediagroup/catalyst-render/issues/26)) ([24b5d44](https://github.com/expediagroup/catalyst-render/commit/24b5d44e4eab26f8dd56acc55b222a0f228ea773))
+
 ## [4.1.5](https://github.com/expediagroup/catalyst-render/compare/v4.1.4...v4.1.5) (2022-01-04)
 
 
