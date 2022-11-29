@@ -1,3 +1,10 @@
+## [4.1.7](https://github.com/expediagroup/catalyst-render/compare/v4.1.6...v4.1.7) (2022-11-29)
+
+
+### Bug Fixes
+
+* update devDependency ansi-regex to 5.0.1 ([#27](https://github.com/expediagroup/catalyst-render/issues/27)) ([c673c15](https://github.com/expediagroup/catalyst-render/commit/c673c15148e1d17f1bbf75d9ea55531df81bdefe))
+
 ## [4.1.6](https://github.com/expediagroup/catalyst-render/compare/v4.1.5...v4.1.6) (2022-11-18)
 
 
