@@ -32,8 +32,8 @@
     "url": "https://github.com/expediagroup/catalyst-render/issues"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "keywords": [
     "catalyst",
