@@ -1,3 +1,10 @@
+## [4.1.8](https://github.com/expediagroup/catalyst-render/compare/v4.1.7...v4.1.8) (2022-12-06)
+
+
+### Bug Fixes
+
+* bump semantic-release from 18.0.1 to 19.0.3 ([#31](https://github.com/expediagroup/catalyst-render/issues/31)) ([aa8d7d9](https://github.com/expediagroup/catalyst-render/commit/aa8d7d9dd2963afc0f9174dff4b9a9a10ef15324))
+
 ## [4.1.7](https://github.com/expediagroup/catalyst-render/compare/v4.1.6...v4.1.7) (2022-11-29)
 
 
