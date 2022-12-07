@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/expediagroup/catalyst-render/compare/v4.1.8...v4.2.0) (2022-12-07)
+
+
+### Features
+
+* Upgrade to node v16 ([#32](https://github.com/expediagroup/catalyst-render/issues/32)) ([2b56711](https://github.com/expediagroup/catalyst-render/commit/2b56711151ecd698494831e8ef73d4209e4ce1a0))
+
 ## [4.1.8](https://github.com/expediagroup/catalyst-render/compare/v4.1.7...v4.1.8) (2022-12-06)
 
 
