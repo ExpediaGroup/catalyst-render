@@ -1,3 +1,10 @@
+## [4.2.1](https://github.com/expediagroup/catalyst-render/compare/v4.2.0...v4.2.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* bump json5 from 1.0.1 to 1.0.2 ([#33](https://github.com/expediagroup/catalyst-render/issues/33)) ([f7acae8](https://github.com/expediagroup/catalyst-render/commit/f7acae8eb741c676a5b732bfb15aabc344ad25ee))
+
 # [4.2.0](https://github.com/expediagroup/catalyst-render/compare/v4.1.8...v4.2.0) (2022-12-07)
 
 
