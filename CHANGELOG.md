@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/expediagroup/catalyst-render/compare/v4.2.1...v4.3.0) (2023-02-09)
+
+
+### Features
+
+* update dependencies [CAT-1531] ([#35](https://github.com/expediagroup/catalyst-render/issues/35)) ([4e9a9cf](https://github.com/expediagroup/catalyst-render/commit/4e9a9cf6fa6c70b3003b69458a9807b918879540))
+
 ## [4.2.1](https://github.com/expediagroup/catalyst-render/compare/v4.2.0...v4.2.1) (2023-01-09)
 
 
