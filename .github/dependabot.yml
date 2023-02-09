@@ -1,0 +1,22 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    versioning-strategy: increase-if-necessary
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "@ExpediaGroup/catalyst-committers"
+    open-pull-requests-limit: 10
+    ignore:
+      # Ignore Hapi major updates
+      - dependency-name: "@hapi/hapi"
+        update-types: ["version-update:semver-major"]
+      # Ignore Semantic Release major updates
+      - dependency-name: "semantic-release"
+        update-types: ["version-update:semver-major"]
