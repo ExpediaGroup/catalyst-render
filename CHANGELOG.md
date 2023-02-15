@@ -1,3 +1,10 @@
+## [4.3.1](https://github.com/expediagroup/catalyst-render/compare/v4.3.0...v4.3.1) (2023-02-15)
+
+
+### Bug Fixes
+
+* Altering the order of semantic release config file to have it correct ([#40](https://github.com/expediagroup/catalyst-render/issues/40)) ([25b8c59](https://github.com/expediagroup/catalyst-render/commit/25b8c598e63b687388196ba9409f86d942df2009))
+
 # [4.3.0](https://github.com/expediagroup/catalyst-render/compare/v4.2.1...v4.3.0) (2023-02-09)
 
 
