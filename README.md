@@ -2,6 +2,7 @@
 ![](https://github.com/ExpediaGroup/catalyst-render/workflows/Node_CI/badge.svg)
 [![Dependency Status](https://david-dm.org/expediagroup/catalyst-render.svg?theme=shields.io)](https://david-dm.org/expediagroup/catalyst-render)
 [![NPM Downloads](https://img.shields.io/npm/dm/@vrbo/catalyst-render.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@vrbo/catalyst-render)
+![No Maintenance Intended](https://img.shields.io/maintenance/no/2023.svg)
 
 # :warning: **Deprecation Notice** :warning:
 This package is now deprecated and will not receive any updates in the future.
